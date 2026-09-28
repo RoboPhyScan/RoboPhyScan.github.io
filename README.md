@@ -4,7 +4,7 @@ This repository contains the source files and static assets for the RoboPhyScan 
 
 Project page: <https://robophyscan.github.io/>
 
-The site presents the RoboPhyScan dataset, its asset fabrication pipeline, manipulation annotations, and simulation and real-world demonstrations.
+The site presents the RoboPhyScan dataset, its asset fabrication pipeline, and manipulation annotations.
 
 ## Third-party components
 
