@@ -107,27 +107,6 @@
       </div>
     </div>
 
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <div class="content">
-          <img src="./static/images/pipeline_detail.png"
-               alt="RoboPhyScan pipeline details"
-               class="pipeline-image">
-        </div>
-      </div>
-    </div>
-
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Property</h2>
-        <div class="content">
-          <img src="./static/images/property.png"
-               alt="RoboPhyScan object properties"
-               class="pipeline-image">
-        </div>
-      </div>
-    </div>
-
   </div>
 </section>
 
@@ -136,56 +115,68 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3" id="video-demo-title">Video Demo</h2>
+        <h2 class="title is-3" id="video-demo-title">Experiment Videos</h2>
         <div class="video-demo-grid">
-          <figure>
-            <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/bottle_real.jpg" aria-label="Bottle (Real), 2.5x speed">
-              <source src="./static/videos/manipulation/bottle_real.mp4" type="video/mp4">
-            </video>
-            <figcaption>Bottle (Real)</figcaption>
-          </figure>
-          <figure>
-            <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/shampoo_real.jpg" aria-label="Shampoo (Real), 2.5x speed">
-              <source src="./static/videos/manipulation/shampoo_real.mp4" type="video/mp4">
-            </video>
-            <figcaption>Shampoo (Real)</figcaption>
-          </figure>
-          <figure>
-            <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/stapler_real.jpg" aria-label="Stapler (Real), 2.5x speed">
-              <source src="./static/videos/manipulation/stapler_real.mp4" type="video/mp4">
-            </video>
-            <figcaption>Stapler (Real)</figcaption>
-          </figure>
-          <figure>
-            <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/usb_real.jpg" aria-label="USB (Real), 2.5x speed">
-              <source src="./static/videos/manipulation/usb_real.mp4" type="video/mp4">
-            </video>
-            <figcaption>USB (Real)</figcaption>
-          </figure>
-          <figure>
-            <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/bottle_sim.jpg" aria-label="Bottle (Sim), 2.5x speed">
-              <source src="./static/videos/manipulation/bottle_sim.mp4" type="video/mp4">
-            </video>
-            <figcaption>Bottle (Sim)</figcaption>
-          </figure>
-          <figure>
-            <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/shampoo_sim.jpg" aria-label="Shampoo (Sim), 2.5x speed">
-              <source src="./static/videos/manipulation/shampoo_sim.mp4" type="video/mp4">
-            </video>
-            <figcaption>Shampoo (Sim)</figcaption>
-          </figure>
-          <figure>
-            <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/stapler_sim.jpg" aria-label="Stapler (Sim), 2.5x speed">
-              <source src="./static/videos/manipulation/stapler_sim.mp4" type="video/mp4">
-            </video>
-            <figcaption>Stapler (Sim)</figcaption>
-          </figure>
-          <figure>
-            <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/usb_sim.jpg" aria-label="USB (Sim), 2.5x speed">
-              <source src="./static/videos/manipulation/usb_sim.mp4" type="video/mp4">
-            </video>
-            <figcaption>USB (Sim)</figcaption>
-          </figure>
+          <div class="video-demo-object">
+            <h3>Bottle</h3>
+            <figure>
+              <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/bottle_sim.jpg" aria-label="Bottle Sim, 2.5x speed">
+                <source src="./static/videos/manipulation/bottle_sim.mp4" type="video/mp4">
+              </video>
+              <figcaption>Sim</figcaption>
+            </figure>
+            <figure>
+              <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/bottle_real.jpg" aria-label="Bottle Real, 2.5x speed">
+                <source src="./static/videos/manipulation/bottle_real.mp4" type="video/mp4">
+              </video>
+              <figcaption>Real</figcaption>
+            </figure>
+          </div>
+          <div class="video-demo-object">
+            <h3>Shampoo</h3>
+            <figure>
+              <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/shampoo_sim.jpg" aria-label="Shampoo Sim, 2.5x speed">
+                <source src="./static/videos/manipulation/shampoo_sim.mp4" type="video/mp4">
+              </video>
+              <figcaption>Sim</figcaption>
+            </figure>
+            <figure>
+              <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/shampoo_real.jpg" aria-label="Shampoo Real, 2.5x speed">
+                <source src="./static/videos/manipulation/shampoo_real.mp4" type="video/mp4">
+              </video>
+              <figcaption>Real</figcaption>
+            </figure>
+          </div>
+          <div class="video-demo-object">
+            <h3>Stapler</h3>
+            <figure>
+              <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/stapler_sim.jpg" aria-label="Stapler Sim, 2.5x speed">
+                <source src="./static/videos/manipulation/stapler_sim.mp4" type="video/mp4">
+              </video>
+              <figcaption>Sim</figcaption>
+            </figure>
+            <figure>
+              <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/stapler_real.jpg" aria-label="Stapler Real, 2.5x speed">
+                <source src="./static/videos/manipulation/stapler_real.mp4" type="video/mp4">
+              </video>
+              <figcaption>Real</figcaption>
+            </figure>
+          </div>
+          <div class="video-demo-object">
+            <h3>USB</h3>
+            <figure>
+              <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/usb_sim.jpg" aria-label="USB Sim, 2.5x speed">
+                <source src="./static/videos/manipulation/usb_sim.mp4" type="video/mp4">
+              </video>
+              <figcaption>Sim</figcaption>
+            </figure>
+            <figure>
+              <video controls autoplay muted loop playsinline preload="metadata" poster="./static/videos/manipulation/usb_real.jpg" aria-label="USB Real, 2.5x speed">
+                <source src="./static/videos/manipulation/usb_real.mp4" type="video/mp4">
+              </video>
+              <figcaption>Real</figcaption>
+            </figure>
+          </div>
         </div>
       </div>
     </div>
